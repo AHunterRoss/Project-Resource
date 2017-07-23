@@ -4,18 +4,26 @@
 			<link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
 		</head>
 		<body>
-			<p>Max Population</p>
-			<p id="maxPopulation"></p>
-			<p>Available population</p>
-			<p id="population"></p>
-			<button id="woodUp" type="button" onclick="woodUp()">wood[+]</button>
-			<button id="woodDown" type="button" onclick="woodDown()">wood[-]</button>
-			<button id="stoneUp" type="button" onclick="stoneUp()">stone[+]</button>
-			<button id="stoneDown" type="button" onclick="stoneDown()">stone[-]</button>
-			<p>Woodcutter</p>
-			<p id="woodcutter"></p>
-			<p>Stonecutter</p>
-			<p id="stonecutter"></p>
+			<table style="width:100%">
+  				<tr>
+    				<th>Max Population</th>
+   					<th>Available Population</th>    				
+					<th>Woodcutter(s)</th>
+					<th>Stonecutter(s)</th>
+  				</tr>
+  				<tr>
+    				<td align="center"><p id="maxPopulation"></p></td>
+    				<td align="center"><p id="population"></p></td>
+					<td align="center"><p id="woodcutter"></p></td>
+					<td align="center"><p id="stonecutter"></p></td>
+  				</tr>
+  				<tr>
+					<td></td>
+					<td></td>					
+    				<td align="center"><button id="woodUp" type="button" onclick="woodUp()">wood[+]</button><button id="woodDown" type="button" onclick="woodDown()">wood[-]</button></td>
+    				<td align="center"><button id="stoneUp" type="button" onclick="stoneUp()">stone[+]</button><button id="stoneDown" type="button" onclick="stoneDown()">stone[-]</button></td>
+				</tr>
+			</table> 
 
 			<script type="text/javascript" src="game.js"></script>
 
