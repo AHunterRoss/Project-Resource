@@ -1,8 +1,28 @@
 //================VARIABLES================
 var population = 5;
 var maxPopulation = 5;
+//workers
 var woodcutter = 0;
 var stonecutter = 0;
+var cropfarmer;
+var livestockfarmer;
+var miner;
+var smithy;
+var builder;
+var fletcher;
+var herbalist;
+var alchemist;
+var armourer;
+var weaponsmith;
+//military
+
+
+//products
+var wood = 0;
+var stone = 0;
+//buildings
+
+
 //================DISPLAY-VARIABLES================
 document.getElementById("population").innerHTML = population;
 document.getElementById("maxPopulation").innerHTML = maxPopulation;
