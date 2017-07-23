@@ -11,32 +11,32 @@ document.getElementById("stonecutter").innerHTML = stonecutter;
 //================FUNCTIONS================
 function woodUp() {
 	if(population > 0) {
-		population = population - 1;
-		woodcutter = woodcutter + 1;
+		population -= 1;
+		woodcutter += 1;
 		document.getElementById("woodcutter").innerHTML = woodcutter;
 		document.getElementById("population").innerHTML = population;
 	}
 }
 function woodDown() {
 	if(woodcutter > 0) {
-		population = population + 1;
-		woodcutter = woodcutter - 1;
+		population += 1;
+		woodcutter -= 1;
 		document.getElementById("woodcutter").innerHTML = woodcutter;
 		document.getElementById("population").innerHTML = population;
 	}
 }
 function stoneUp() {
 	if(population > 0) {
-		population = population - 1;
-		stonecutter = stonecutter + 1;
+		population -= 1;
+		stonecutter += 1;
 		document.getElementById("stonecutter").innerHTML = stonecutter;
 		document.getElementById("population").innerHTML = population;
 	}
 }
 function stoneDown() {
 	if(stonecutter > 0) {
-		population = population + 1;
-		stonecutter = stonecutter - 1;
+		population += 1;
+		stonecutter -= 1;
 		document.getElementById("stonecutter").innerHTML = stonecutter;
 		document.getElementById("population").innerHTML = population;
 	}
